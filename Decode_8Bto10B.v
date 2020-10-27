@@ -8,7 +8,7 @@ module Decode_8Bto10B(
 	        reg  [4:0] lsb;
 	        reg  [2:0] msb;
 	        reg  [2:0] i;
-            reg  [7:0] data_out;
+                reg  [7:0] data_out;
 			
     initial
 		begin
