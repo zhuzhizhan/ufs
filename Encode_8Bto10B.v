@@ -7,11 +7,11 @@ module Transition_8Bto10B(
 	output	reg        rd_out,
 );
 	        reg  [9:0] data_out;
-			reg  [5:0] code6b;
-			reg  [3:0] code4b,i;
-			reg  [2:0] disparity_5bto6b,disparity_3bto4b;
-			reg        rd_after5bto6b;
-			reg        rd_out;
+		reg  [5:0] code6b;
+		reg  [3:0] code4b,i;
+		reg  [2:0] disparity_5bto6b,disparity_3bto4b;
+		reg        rd_after5bto6b;
+		reg        rd_out;
 	
 	initial
 		begin
